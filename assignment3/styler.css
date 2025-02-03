@@ -1,0 +1,46 @@
+#specialid {
+    color:#5e3b58;
+    background-color: aquamarine;
+}
+
+#divstyle {
+  color:darkolivegreen;
+  background-color: midnightblue;
+}
+
+p {
+    color: darkturquoise;
+    background-color: dimgray;
+}
+
+h2 {
+  color:blue;
+  background-color:indianred;
+}
+
+h3 {
+  color: whitesmoke;
+  background-color: rgb(211, 52, 118);
+}
+
+.spanstyle {
+  color:aquamarine;
+  background-color: black;
+}
+
+.list {
+  color:rebeccapurple;
+  background-color: aqua;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff00;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }  
