@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(155, 155, 155);
+}
+
+#box {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid #0e4183;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2a7cf8, #216dda, #195ebc, #134f9f, #0e4183);
+    grid-column: span 12;
+}
+
+header a {
+    color: #60cdff;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+h1 {
+    padding: 15px;
+    margin: 15px;
+}
+
+nav {
+    grid-column: span 12;
+    background-color: #0e4183;
+    border-bottom: 5px solid #0e4183;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+nav li {
+    background-image: linear-gradient(to bottom, #2a7cf8, #216dda, #195ebc, #134f9f, #0e4183);
+    display: inline-block;
+    margin: 0px;
+    width: 237px;
+}
+
+nav li a {
+    color: #60cdff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.substitution {
+    color:rgba(155, 155, 155, 0)
+}
+
+.substitution:hover {
+    background-image: linear-gradient(to bottom, #2a7cf8, #216dda, #195ebc, #134f9f, #0e4183);
+}
+
+nav li a:hover {
+    background-image: linear-gradient(to bottom, #5699ff, #4d8ae1, #467bc4, #406ca7, #3b5d8b);
+}
+
+.hokage {
+    color: white;
+}
+
+.shadowclone {
+    grid-column: span 4;
+    padding: 10px;
+    margin: 0px;
+    background-color: lightskyblue;
+}
+
+.shadowclone p {
+    font-weight: bold;
+    text-align: justify;
+}
+
+h2 {
+    color: #0e4183;
+    border-bottom: 3px solid #0e4183;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding-bottom: 3px;
+}
+
+main {
+    grid-column: span 8;
+    padding: 5px;
+    margin: 5px;
+}
+
+main a, .sasuke a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover, .sasuke a:hover {
+    color: rgb(107, 0, 0);
+}
+
+.floating {
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    border: 5px solid #0e4183;
+}
+
+.falling {
+    float: right;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    border: 5px solid #0e4183;
+}
+
+.sasuke {
+    grid-column: span 4;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sasuke img {
+    max-width: 100%;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: red;
+    border-top: solid 5px #0e4183;
+}
+
+footer img {
+    margin: 5px;
+}
