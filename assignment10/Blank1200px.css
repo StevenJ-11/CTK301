@@ -1,0 +1,117 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 0;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: auto;
+}
+
+nav {
+  grid-column: span 12;
+  background-color: #287562;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0;
+}
+
+nav li {
+  background-color: #287562;
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li a:hover {
+  opacity: 0;
+}
+
+.water {
+  background-image: url(homeicon.png);
+}
+
+.fire {
+  background-image: url(about2.png);
+}
+
+.earth {
+  background-image: url(music2.png);
+}
+
+.air {
+  background-image: url(art2.png);
+}
+
+header {
+  grid-column:span 12;
+}
+
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:aquamarine;
+  text-shadow: 2px 2px 2px rgb(87, 82, 82);
+  margin: 10px;
+}
+
+main iframe {
+  border: 0;
+  width: 700px;
+  height: 275px;
+  grid-column:span 12;
+  margin: 10px;
+}
+
+main div {
+  grid-column: span 12;
+  padding: 10px;
+  margin: 10px;
+}
+
+main div a {
+  display: block;
+  text-decoration: none;
+  background-color:#50dab7;
+  padding: 15px;
+}
+
+main h2, p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:aquamarine;
+  text-shadow: 2px 2px 2px rgb(87, 82, 82);
+}
+
+footer {
+  grid-column:span 12;
+  background-color:#287562;
+  padding: 0;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  color:#50dab7;
+  text-shadow: 2px 2px 2px rgb(87, 82, 82);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 5px;
+  padding: 10px;
+}
