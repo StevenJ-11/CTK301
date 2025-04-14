@@ -64,9 +64,10 @@ header {
 }
 
 h1 {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:aquamarine;
-  text-shadow: 2px 2px 2px rgb(87, 82, 82);
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #287562;
   margin: 10px;
 }
 
@@ -89,6 +90,14 @@ main div a {
   text-decoration: none;
   background-color:#50dab7;
   padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  transition: background-color 1s, width 1s;
+}
+
+main div a:hover {
+  width: 150%;
+  background-color:#287562;
 }
 
 main h2, p {
@@ -104,14 +113,26 @@ footer {
   margin: 0;
 }
 
-footer a {
-  text-decoration: none;
-}
-
 footer p {
   color:#50dab7;
   text-shadow: 2px 2px 2px rgb(87, 82, 82);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 5px;
   padding: 10px;
+  font-size: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color:#50dab7;
+  font-size: 500%;
+  transition: font-size .2s;
+}
+
+footer a:hover {
+  font-size: 600%;
+}
+
+footer a:visited {
+  color:#50dab7;
 }
