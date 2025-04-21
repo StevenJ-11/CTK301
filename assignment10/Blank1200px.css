@@ -71,12 +71,16 @@ h1 {
   margin: 10px;
 }
 
-main iframe {
+.bandcamp {
   border: 0;
   width: 700px;
   height: 275px;
   grid-column:span 12;
   margin: 10px;
+}
+
+main {
+  grid-column: span 12;
 }
 
 main div {
@@ -91,19 +95,46 @@ main div {
   background-color:#50dab7;
   padding: 15px;
   border-radius: 10px;
-  width: 100%;
+  width: 50%;
   transition: background-color 1s, width 1s;
 }
 
 .elan a:hover {
-  width: 150%;
+  width: 75%;
   background-color:#287562;
 }
 
-main h2, p {
+.squirrel {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:aquamarine;
   text-shadow: 2px 2px 2px rgb(87, 82, 82);
+}
+
+.sound {
+  grid-column: span 12;
+}
+
+.sound iframe {
+  margin: 5px;
+}
+
+.yt {
+  width: 350px;
+  height: 442px;
+}
+
+.fancy {
+  display: flex;
+}
+
+.fancy a {
+  width: 150px;
+  margin: 5px;
+}
+
+.markiplier {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 
 footer {
