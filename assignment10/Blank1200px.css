@@ -1,5 +1,5 @@
 body {
-  background-color: #999999;
+  background-image: url(squares01.gif);
 }
 
 #wrapper {
@@ -85,7 +85,7 @@ main div {
   margin: 10px;
 }
 
-main div a {
+.elan a {
   display: block;
   text-decoration: none;
   background-color:#50dab7;
@@ -95,7 +95,7 @@ main div a {
   transition: background-color 1s, width 1s;
 }
 
-main div a:hover {
+.elan a:hover {
   width: 150%;
   background-color:#287562;
 }
@@ -131,8 +131,9 @@ footer a {
 
 footer a:hover {
   font-size: 600%;
+  color:rgb(255, 255, 255);
 }
 
 footer a:visited {
-  color:#50dab7;
+  color: none;
 }
