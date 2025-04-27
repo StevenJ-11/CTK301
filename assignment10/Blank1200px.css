@@ -132,9 +132,20 @@ main div {
   margin: 5px;
 }
 
-.markiplier {
+.blurble {
   font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  border-radius: 10px;
+  background-color:#50dab7;
+  margin-right: 15px;
+  padding: 10px;
+}
 
+.tayto {
+  width: 500px;
+  float: left;
+  margin: 15px;
+  border-radius: 10px;
 }
 
 footer {
@@ -161,7 +172,7 @@ footer a {
 }
 
 footer a:hover {
-  font-size: 600%;
+  font-size: 510%;
   color:rgb(255, 255, 255);
 }
 
