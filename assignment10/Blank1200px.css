@@ -1,5 +1,5 @@
 body {
-  background-image: url(squares01.gif);
+  background-image: url(wible.png);
 }
 
 #wrapper {
@@ -45,18 +45,22 @@ nav li a:hover {
 
 .water {
   background-image: url(homeicon.png);
+  height: 241px;
 }
 
 .fire {
   background-image: url(about2.png);
+  height: 241px;
 }
 
 .earth {
   background-image: url(music2.png);
+  height: 241px;
 }
 
 .air {
   background-image: url(art2.png);
+  height: 241px;
 }
 
 header {
@@ -138,6 +142,7 @@ main div {
   border-radius: 10px;
   background-color:#50dab7;
   margin-right: 15px;
+  margin-left: 15px;
   padding: 10px;
 }
 
